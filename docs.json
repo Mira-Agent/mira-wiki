@@ -25,7 +25,6 @@
             "group": "Mira Core",
             "pages": [
               "core/agentic-infrastructure",
-              "core/group-chats",
               "core/private-mode",
               "core/memory"
             ]
@@ -53,7 +52,6 @@
             "group": "Productivity",
             "pages": [
               "features/reminders",
-              "features/skills",
               "features/mira-daily",
               "features/anonymous-questions"
             ]
@@ -61,12 +59,27 @@
         ]
       },
       {
-        "tab": "Agentic Wallet",
+        "tab": "Group Chats",
         "groups": [
           {
-            "group": "Wallet",
+            "group": "Groups",
             "pages": [
-              "wallet/overview"
+              "group-chats/overview",
+              "group-chats/moderation",
+              "group-chats/topics"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Skills",
+        "groups": [
+          {
+            "group": "Skills",
+            "pages": [
+              "skills/overview",
+              "skills/creating-skills",
+              "skills/sharing-skills"
             ]
           }
         ]
@@ -107,6 +120,17 @@
             "group": "Tips",
             "pages": [
               "use-cases/life-hacks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Agentic Wallet",
+        "groups": [
+          {
+            "group": "Wallet",
+            "pages": [
+              "wallet/overview"
             ]
           }
         ]
