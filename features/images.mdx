@@ -3,17 +3,31 @@ title: "Image Generation & Editing"
 description: "Create stunning visuals and edit photos with AI"
 ---
 
+# Image Generation & Editing
+
+Describe what you want and Mira will generate it. Or send a photo and ask her to transform it.
+
 ## Generate images
 
-Describe what you want and Mira will generate it. Costs **30 tokens** per image.
+Costs **30 tokens** per image.
 
 ```
 Generate a portrait of a woman in Art Nouveau style, floral background
 ```
 
-### Aspect ratios
+### Models
 
-You can specify the aspect ratio:
+Mira offers multiple image generation models, each optimized for different use cases:
+
+| Model | Best for | Cost |
+|-------|----------|------|
+| **GPT Image 2** | Images with text, high detail, cards, posters, slides with readable text | 30 🪙 |
+| **Nano Banana** | Quick sketches, illustrations, balanced quality & creativity | 30 🪙 |
+| **Nano Banana Pro** | Hero visuals, marketing materials, highest quality | 60 🪙 |
+| **Seedream 4.5** | Portrait photos, face similarity, realistic faces | 30 🪙 |
+| **Qwen Image Edit** | Low moderation, creative freedom, artistic experiments | 30 🪙 |
+
+### Aspect ratios
 
 | Ratio | Best for |
 |-------|----------|
@@ -22,6 +36,15 @@ You can specify the aspect ratio:
 | `1:1` | Profile pictures, posts |
 | `4:5` | Instagram feed |
 | `3:2` | Photography style |
+
+### Batch generation
+
+Ask for multiple images at once:
+
+```
+Generate 3 variations of a logo for a coffee shop
+Create 4 slides for a pitch deck about AI
+```
 
 ## Edit images
 
@@ -48,6 +71,6 @@ Describe the mood of this scene.
 ## Tokens
 
 <Info>
-  Image generation and editing cost **30 🪙 tokens** each. Chat and image analysis are always free.
+  Image generation and editing cost **30 🪙 tokens** each (60 🪙 for Nano Banana Pro). Chat and image analysis are always free.
   Top up your balance or subscribe to **Mira Pro** for unlimited generations.
 </Info>
