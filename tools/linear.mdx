@@ -3,8 +3,6 @@ title: "Linear"
 description: "Create and manage tasks, track projects in Linear from Telegram"
 ---
 
-# Linear
-
 Connect your Linear workspace and manage tasks through Mira.
 
 ## Connect
@@ -37,5 +35,18 @@ Mark task MIRA-123 as done
 Move MIRA-456 to In Review
 Add a comment to MIRA-789: "Deployed to staging"
 ```
+
+## Life hack: Attach screenshots to tasks
+
+You can attach screenshots to Linear tasks directly from Telegram:
+
+1. **Send a screenshot** to Mira in the chat
+2. **Ask Mira to create a task** with the screenshot attached:
+
+```
+Create a Linear task: "Fix UI bug on login screen" with priority High and attach this screenshot to the description
+```
+
+Mira will upload the image and embed it in the task description using `![image](URL)` — so your team sees the screenshot right in the task, no external links needed.
 
 <Tip>Use task IDs (like MIRA-123) for quick updates — Mira will find the right task instantly.</Tip>
