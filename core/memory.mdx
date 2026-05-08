@@ -1,0 +1,85 @@
+---
+title: "Memory"
+description: "How Mira remembers everything about you — with strict privacy boundaries between personal and group contexts"
+---
+
+# Memory
+
+Mira operates **within real conversations** — across personal and group chats — retaining contextual and structured memory over time. This is Mira's core defensive advantage: a **social memory layer** built inside Telegram's existing social graph.
+
+## How Memory Works
+
+Mira builds memory on three levels:
+
+### 1. Personal Memory (Private)
+
+Everything you share in 1-on-1 chats with Mira stays **strictly private**. Mira remembers:
+
+- **Profile**: name, location, occupation, timezone, language
+- **Preferences**: communication style, topics of interest, answer format
+- **Facts**: anything you share — "I'm launching a startup", "I prefer bullet points"
+- **Context**: ongoing projects, recurring tasks, past decisions
+
+Personal memory persists across conversations and improves over time. **No one else — not group members, not other users — can ever access your private memory.**
+
+### 2. Group Memory (Shared)
+
+In group chats, Mira retains **shared context**:
+
+- Summarizes long discussions on demand
+- Remembers decisions made by the group
+- Surfaces missed updates across chats and channels
+- Participates like a digital teammate — aware of who said what
+
+Group memory is scoped to the group. **Mira never leaks private memory into group chats** — your personal context, preferences, and facts stay invisible to other members.
+
+### 3. Amortized Memory
+
+Mira uses **amortization** to manage memory efficiently:
+
+- Older conversations are compressed into summaries, preserving key facts without storing every word
+- Active topics and recent context are kept in full detail
+- This means Mira remembers what matters, without requiring infinite storage — and without degrading response quality over time
+
+Amortization ensures Mira stays **fast, relevant, and privacy-respecting** even after thousands of conversations.
+
+## Privacy Architecture
+
+Mira is designed with **strict privacy boundaries**:
+
+| Boundary | Rule |
+|----------|------|
+| Private → Group | **Never.** Your personal memory, preferences, and facts are never shared in group chats. |
+| Group → Private | **Never.** Group context doesn't leak into your 1-on-1 conversations. |
+| Group → Group | **Never.** Each group's memory is isolated. Mira doesn't carry context from one group to another. |
+| Amortization | Summaries are anonymized and scoped. No raw conversation data is retained long-term. |
+
+### What This Means in Practice
+
+- If you tell Mira in a private chat that you're allergic to shellfish, it will **never** mention that in a group chat when someone asks for restaurant recommendations.
+- If a group decides on a launch date, Mira will **not** bring that up in another group or in your private chat unless you ask.
+- Your communication style preferences (e.g., "I like short answers") only affect how Mira responds **to you**, not how it responds to others.
+
+## AI-Powered Recall
+
+Mira helps users stay on top of their Telegram:
+
+- **Surface missed updates** across chats and channels
+- **Instant retrieval** from personal and group conversation history
+- **AI-powered search** — ask in natural language, get precise results
+
+```
+What did John send me last week about the contract?
+Summarize what happened in this chat while I was away
+What are the open action items from today's discussion?
+```
+
+## Network Effects
+
+The more people use Mira together, the more valuable the network becomes.
+
+Anonymized, aggregated insights from group interactions create a **defensible social intelligence layer** — something no standalone AI app can replicate.
+
+<Info>
+  All aggregated insights are anonymized. Individual conversation data is never shared between users.
+</Info>
